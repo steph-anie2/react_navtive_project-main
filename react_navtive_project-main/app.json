@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "react_native",
-    "slug": "react_native",
+    "slug": "servic-22",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.yelluma22.servic22"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ca6d8573-829c-44da-a929-cdcbd3595e8e"
+      }
+    },
+    "owner": "yell-uma22"
   }
 }
